@@ -1,0 +1,47 @@
+*{
+    background-color: black;
+    justify-content: center;
+    color: azure;
+  }
+  
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin-top: 50px;
+  }
+  
+  .movieCard{
+    position: relative;
+    display: flex;
+    border: 2px gray solid;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    color:azure;
+  }
+  
+  .moviedetails{
+    padding: 5px;
+  }
+  
+  .moviPic{
+     width: 40%;
+    
+  }
+  
+  .moviBtn{
+    border: 2px blue solid;
+    border-radius: 10px;
+    background-color: blue;
+    color: beige;
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 100px;
+  }
+  
+  .moviDesc{
+    font-size: small;
+  }
+  
+  
